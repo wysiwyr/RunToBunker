@@ -1151,11 +1151,31 @@ PrefabInstance:
       propertyPath: fpsCamera
       value: 
       objectReference: {fileID: 1468646675}
+    - target: {fileID: 1293511078392753035, guid: c6453f8e1f814744d8b94e5a6d1f9942,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3469038865675424299, guid: c6453f8e1f814744d8b94e5a6d1f9942,
+        type: 3}
+      propertyPath: currentWeapon
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3470787428099816926, guid: c6453f8e1f814744d8b94e5a6d1f9942,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3565081510718501225, guid: c6453f8e1f814744d8b94e5a6d1f9942,
         type: 3}
       propertyPath: gameOverCanvas
       value: 
       objectReference: {fileID: 1311825875}
+    - target: {fileID: 5255813424079797531, guid: c6453f8e1f814744d8b94e5a6d1f9942,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6752868798871007105, guid: c6453f8e1f814744d8b94e5a6d1f9942,
         type: 3}
       propertyPath: FPCamera
@@ -1176,8 +1196,34 @@ PrefabInstance:
         type: 3}
       propertyPath: muzzleFlash
       value: 
-      objectReference: {fileID: 1408268870}
-    m_RemovedComponents: []
+      objectReference: {fileID: 0}
+    - target: {fileID: 7296268745090066998, guid: c6453f8e1f814744d8b94e5a6d1f9942,
+        type: 3}
+      propertyPath: ammoAmount
+      value: 1000
+      objectReference: {fileID: 0}
+    - target: {fileID: 7296268745090066998, guid: c6453f8e1f814744d8b94e5a6d1f9942,
+        type: 3}
+      propertyPath: ammoSlots.Array.data[0].ammoAmount
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 8523089521679859627, guid: c6453f8e1f814744d8b94e5a6d1f9942,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8695844945195134424, guid: c6453f8e1f814744d8b94e5a6d1f9942,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8806485248220660659, guid: c6453f8e1f814744d8b94e5a6d1f9942,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 6752868798871007105, guid: c6453f8e1f814744d8b94e5a6d1f9942, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: c6453f8e1f814744d8b94e5a6d1f9942, type: 3}
 --- !u!4 &691047163 stripped
 Transform:
@@ -2358,12 +2404,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 44884af1ac1d64d42902da40268ba120, type: 3}
---- !u!198 &1408268870 stripped
-ParticleSystem:
-  m_CorrespondingSourceObject: {fileID: 1140265888008134216, guid: c6453f8e1f814744d8b94e5a6d1f9942,
-    type: 3}
-  m_PrefabInstance: {fileID: 626402192}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1461309804
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4192,6 +4232,11 @@ PrefabInstance:
       propertyPath: target
       value: 
       objectReference: {fileID: 1216868528}
+    - target: {fileID: 1637635597945188650, guid: fb43b308ca6935e40b6220629db6b74e,
+        type: 3}
+      propertyPath: chaseRange
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 1637635597945188656, guid: fb43b308ca6935e40b6220629db6b74e,
         type: 3}
       propertyPath: m_Name
