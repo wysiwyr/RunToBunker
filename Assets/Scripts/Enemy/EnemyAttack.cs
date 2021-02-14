@@ -3,7 +3,7 @@
 public class EnemyAttack : MonoBehaviour
 {
     PlayerHealth playerHealth;
-    [SerializeField] float damage = 20f;
+    [SerializeField] float damage = 10f;
 
     // Start is called before the first frame update
     void Start()
@@ -16,6 +16,7 @@ public class EnemyAttack : MonoBehaviour
         if (playerHealth != null)
         {
             playerHealth.TakeDamage(damage);
+            playerHealth.GetComponent<DisplayDamage>().ShowHitEffect();
         }
     }
 }
