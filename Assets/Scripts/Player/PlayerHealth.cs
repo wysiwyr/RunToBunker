@@ -9,7 +9,7 @@ public class PlayerHealth : MonoBehaviour
         health -= damage;
         if (health <= 0)
         {
-            GetComponent<DeathHandler>().HandleDeath();
+            GetComponent<FinishHandler>().HandleFinish(false);
         }
     }
 }
